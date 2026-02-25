@@ -1,4 +1,4 @@
-name: New Issue Submitted
+name: New Issue Submitted - Custom
 
 on: 
   issues:
