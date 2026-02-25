@@ -31,7 +31,7 @@ describe('Math js file tests: addTwoNumbers function', () => {
     expect(ans).not.toBe(1111)
   })
 
-  test('should return 22 when numbers 11 and 11 are provided', () => {
+  test('should return abcdef when letters abc and def are provided', () => {
     const ans = addTwoNumbers('abc', 'def')
     expect(ans).toBe('abcdef')
     expect(ans).not.toBe(1)
