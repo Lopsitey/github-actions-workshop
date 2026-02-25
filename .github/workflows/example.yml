@@ -22,6 +22,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Lint Code
+        run: |
+          npx standard
+          npx standard --fix
+
       - name: Run Tests
         run: npm test
 
