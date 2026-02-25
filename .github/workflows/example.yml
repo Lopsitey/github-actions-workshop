@@ -25,7 +25,7 @@ jobs:
       - name: Lint Code
         run: |
           npx standard --fix
-          npx standard
+          npx standard # Errors if linting fails
 
       - name: Run Tests
         run: npm test

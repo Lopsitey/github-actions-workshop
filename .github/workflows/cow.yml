@@ -1,0 +1,13 @@
+name: Cowsays Action Test
+on: 
+  workflow_dispatch:
+
+jobs:
+  manually-triggered:
+    runs-on: windows-latest
+    steps:
+      - name: Cowsays
+        uses: mscoutermarsh/cowsays-action@v1
+        with:
+          text: "Mooo!"
+          color: 'blue'
