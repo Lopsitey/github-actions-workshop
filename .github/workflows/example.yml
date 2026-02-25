@@ -24,8 +24,8 @@ jobs:
 
       - name: Lint Code
         run: |
-          npx standard
           npx standard --fix
+          npx standard
 
       - name: Run Tests
         run: npm test
