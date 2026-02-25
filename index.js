@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('first').addEventListener('change', (event) => {
     console.log('first changesd: ' + event.target.value)
     currentFirst = parseInt(event.target.value)
-      performMaths(currentFirst, currentSecond)
+    performMaths(currentFirst, currentSecond)
   })
 
   /**
